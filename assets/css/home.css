@@ -565,7 +565,7 @@ a:hover {
 @media (max-width:320px)and (max-height:570px){
   
   .rounded-circle{
-    height: 180px !important;
+    height: 160px !important;
   }
 }
 
