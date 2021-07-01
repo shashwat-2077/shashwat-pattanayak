@@ -5,28 +5,264 @@ document.addEventListener("DOMContentLoaded", () => {
   // json variable for injecting html into DOM
   const travel_data = [
     {
-      day: "Day 1",
-      description: "description",
+      day: "Potrait",
+      description: `
+      <div>
+        <!-- gallery -->
+        <div class="container_gallery">
+            <div class="item1">
+                <div class="item2">
+                    <h2>Potr<span style="color: rgb(121, 59, 221)">aits</span></h2>
+                </div>
+                <div class="imagecontainer" style="
+              display: flex;
+              flex-direction: row;
+              padding: 5px 5px;
+              align-items: center;
+              justify-content: center;
+              margin-top: 10px;
+            ">
+                    <!-- upper left image carousel  -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+                        style="max-width: 30%; margin: 10px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/travel/potrait/landscape/1.jpeg" class="d-block w-100"
+                                    alt="gallery  image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/landscape/4.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- upper middle image carousel  -->
+
+                    <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel"
+                        style="max-width: 30%; margin: 10px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/travel/potrait/landscape/2.jpeg" class="d-block w-100"
+                                    alt="gallery  image" />
+                            </div>
+                        
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- upper right image carousel  -->
+
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel"
+                        style="max-width: 30%; margin: 10px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/travel/potrait/landscape/3.jpeg" class="d-block w-100"
+                                    alt="gallery  image" />
+                            </div>
+                            
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- gallery -->
+        <div class="container_gallery">
+            <div class="item1">
+                <div class="imagecontainer" style="
+              display: flex;
+              flex-direction: row;
+              padding: 5px 5px;
+              align-items: center;
+              justify-content: center;
+              margin-top: 10px;
+            ">
+                    <!-- lower left image carousel  -->
+
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel"
+                        style="max-width: 30%; margin: 10px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/travel/potrait/potrait/1.jpeg" class="d-block w-100"
+                                    alt="gallery  image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/potrait/4.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/potrait/7.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- lower middle image carousel  -->
+
+                    <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel"
+                        style="max-width: 30%; margin: 10px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/travel/potrait/potrait/2.jpeg" class="d-block w-100"
+                                    alt="gallery  image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/potrait/5.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/potrait/8.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <!-- lower right image carousel  -->
+
+                    <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel"
+                        style="max-width: 30%; margin: 10px">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/travel/potrait/potrait/3.jpeg" class="d-block w-100"
+                                    alt="gallery  image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/potrait/6.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/travel/potrait/potrait/9.jpeg" class="d-block w-100"
+                                    alt="gallery image" />
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+      `,
       // background_image: "assets/images/travel/trip1/national_zoological_park.jpg"
       background_image: "assets/images/travel/trip1/street.jpg"
     },
     {
-      day: "Day 2",
+      day: "Macro",
       description: "description",
       background_image: "assets/images/travel/trip1/qutub_minar.jpg"
     },
     {
-      day: "Day 3",
+      day: "Landscapes",
       description: "description",
       background_image: "assets/images/travel/trip1/lotus_temple.jpg"
     },
     {
-      day: "Day 4",
+      day: "Travel",
       description: "description",
       background_image: "assets/images/travel/trip1/old_fort.jpg"
     },
     {
-      day: "Day 5",
+      day: "Wildlife",
       description: "description",
       background_image: "assets/images/travel/trip1/red_fort.jpg"
     }

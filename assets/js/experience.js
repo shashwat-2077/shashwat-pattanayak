@@ -104,18 +104,18 @@ const volunteershipcards = [
     description:
       "As a newbie to open source, i explored and dug into some of the projects and tried to contributed all that i Could",
   },
-  // {
-  //   title: "StudentCode-in 2020",
-  //   cardImage: "assets/images/experience-page/2.jpg",
-  //   description:
-  //     "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  // },
-  // {
-  //   title: "PClub Summer Of Code 2020",
-  //   cardImage: "assets/images/experience-page/3.jpg",
-  //   description:
-  //     "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  // },
+  {
+    title: "COVID Respone",
+    cardImage: "assets/images/experience-page/msf.jpg",
+    description:
+      "Distributed relied to the needy/covid affected people in rural and remote parts of Odisha",
+  },
+  {
+    title: "International Yoga Day 2021",
+    cardImage: "assets/images/experience-page/vvp.jpg",
+    description:
+      "Coordianted an online webinar on the importance of Yoga and Pranayam under the joint collaboration of Vishwa Vaidik Parivaar & Mahashakti Foundation",
+  },
   // {
   //   title: "Hakin-Codes",
   //   cardImage: "assets/images/experience-page/4.jpg",

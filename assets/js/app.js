@@ -17,10 +17,11 @@ let header = $(`
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+   <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-  <li class="nav-item"><a class="nav-link" href="./assets/docs/resume.pdf" target="_blank">Resume</a></li>
+   <li class="nav-item"><a class="nav-link" href="./assets/docs/resume.pdf" target="_blank">Resume</a></li>
    <li class="nav-item">
    <input type="checkbox" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
    </li>
@@ -130,21 +131,28 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
-                  <form action="#" method="POST" accept-charset="UTF-8" >
+              <form>
+                  <form action="https://forms.gle/41kCXoMVds5JUKGB9" method="POST" target="_blank" accept-charset="UTF-8" >
                   <input type="text" name="field1" placeholder="Your Name" required/>
                   <input type="email" name="field2" placeholder="Email Address"  required/>
                   <textarea name="field3" placeholder="Type your Message" required></textarea>
-                  <input type="submit" value="Send" />
-                </form>
-             </div>
-          </div>
-        </div>
-    </div>
+                  <input type="submit" value="Submit" target="_blank"/>    
+                  </form>
 
-
+                  <form action="https://forms.gle/41kCXoMVds5JUKGB9" method="get" target="_blank">
+        <button type="submit"  style="padding: 10px 30px;
+        border-radius: 10px;
+        background-color: #6a00bb;
+        color: white;
+        width: 70%;
+        justify-content: center;
+        align-items: center;" >For now, CLICK HERE</button>
+                  
+                  </div>
+                  </div>
+                  </div>
+                  </div>          
     
-
     <div class="rounded-social-buttons tag">
     <a class="social-button twitter" href="https://twitter.com/ShashwatPattna2" target="_blank">
     <!-- SVG code for twitter icon -->
@@ -241,6 +249,8 @@ let footer = $(`
     </svg>
     </a>
 
+    
+
 
     
     </div>
@@ -251,8 +261,8 @@ let footer = $(`
 //"Scroll to top" button
 let upArrow = $(`
   <button id="btnScrollToTop" onclick="scrollToTop()"><i class="fas fa-2x fa-angle-up"></i></button>
-  <link rel="stylesheet" type="text/css" href="./css/style.css" />
-  })
+  <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+})
 `)
 
 //function for the "Scroll To Top" button to detect the footer

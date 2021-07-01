@@ -15,6 +15,21 @@ const moocscards = [
     moocLink: "https://www.linkedin.com/posts/shashwat-pattanayak_udacityawsscholars-poweredbyaws-activity-6814407071837093888-PEVd",
   },
   {
+    title: "HACKON 2.0",
+    cardImage: "assets/images/education-page/hack-on2.jpg",
+    moocLink: "https://www.linkedin.com/posts/shashwat-pattanayak_hackon-activity-6814398531428843520-_RRT",
+  },
+  {
+    title: "E-Summit 2021 by E-Cell VIT-Bhopal  ",
+    cardImage: "assets/images/education-page/e-summit-2021.jpg",
+    moocLink: "https://lnkd.in/gy6yjDa",  
+  },
+  {
+    title: "Google Digital Marketing ",
+    cardImage: "assets/images/education-page/google-digital-marketing.jpg",
+    moocLink: "https://drive.google.com/file/d/1kBB1vYLX7VehYYDqMuKQnta2Dhvsc-vz/view?usp=sharing",  
+  },
+  {
     title: "Artificial Intelligence on Azure",
     cardImage: "assets/images/education-page/azure-ai.jpg",
     moocLink: "https://docs.microsoft.com/en-us/learn/paths/get-started-with-artificial-intelligence-on-azure/?WT.mc_id=linkedin",
@@ -23,16 +38,6 @@ const moocscards = [
     title: " CallforCode Global Challenge to combat Climate Change",
     cardImage: "assets/images/education-page/call-for-code.jpg",
     moocLink: "https://developer.ibm.com/callforcode/",
-  },
-  {
-    title: "HACKON 2.0",
-    cardImage: "assets/images/education-page/hack-on2.jpg",
-    moocLink: "https://www.linkedin.com/posts/shashwat-pattanayak_hackon-activity-6814398531428843520-_RRT",
-  },
-  {
-    title: "E-Summit 2021 by E-Cell VIT-Bhopal  ",
-    cardImage: "assets/images/education-page/e-summit-2021.jpg",
-    moocLink: "https://lnkd.in/gy6yjDa",
   },
   {
     title: "Dekho Apna Desh Pledge",

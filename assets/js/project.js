@@ -6,7 +6,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   
   {
-    title: "Windows 11",
+    title: "Web Windows 11",
     cardImage: "assets/images/project-page/win11.jpg",
     description: "Windows 11 with just HTML, CSS, & JavaScript",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Analogue Clock",
     cardImage: "assets/images/project-page/analogue-clock.jpg",
-    description: "Built using Python.",
+    description: "Built using Tkinter GUI in Python.",
     tagimg: "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "https://www.linkedin.com/posts/shashwat-pattanayak_codewitharry-html-css-activity-6815665471359213568-uV8-",
     Githublink: "#",
@@ -30,9 +30,9 @@ const projects = [
     Githublink: "https://www.linkedin.com/posts/shashwat-pattanayak_python-programming-coding-activity-6791781658015207424-G0Mp",
   },
   {
-    title: "Build Actions for Google Assistant",
+    title: "Built Actions for Google Assistant",
     cardImage: "assets/images/project-page/google-assistant-action-badge.jpg",
-    description: "Learned to build basic and intermediate actions for Google Assistant and also to create advanced features and engage users.",
+    description: "Learned to build basic and intermediate actions for Google Assistant.",
     tagimg: "https://developers.google.com/profile/badges/playlists/actions-on-google/",
     Previewlink: "https://developers.google.com/profile/badges/playlists/actions-on-google/",
     Githublink: "https://developers.google.com/profile/badges/playlists/actions-on-google/",
@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Netflix Recommendation - How do they know what you like?",
     cardImage: "assets/images/project-page//netflix-recommendation.jpg",
-    description: "It was really a great session by TechLearn.live providing me with knowledge on the types of recommendation algorithms and a hands on session of the implementation of algorithms used in different OTT platforms.",
+    description: "A hands on session of the implementation of algorithms used in different OTT platforms.",
     tagimg: "https://www.linkedin.com/posts/shashwat-pattanayak_python-programming-coding-activity-6791781658015207424-G0Mp",
     Previewlink: "https://www.linkedin.com/posts/shashwat-pattanayak_datascience-algorithms-data-activity-6808564523721621504-0TQ-",
     Githublink: "https://www.linkedin.com/posts/shashwat-pattanayak_datascience-algorithms-data-activity-6808564523721621504-0TQ-",
@@ -48,7 +48,7 @@ const projects = [
   {
     title: "How Flipkart is using NLP to help Small Businesses GROW",
     cardImage: "assets/images/project-page/flipkart-nlp.jpg",
-    description: "I attended a very informative session by TechLearn.live on how Flipkart is using NLP (Natural Language Processing) to help small businesses grow. In this session, I understood what is NLP and its applications, learned the basics of topic modeling, using NLP to review text, #SWOT analysis, how to make things understandable, and also got an insight into the online business war. <li>What is NLP?</li> Natural Language Processing (NLP) is a subfield of #CS, & #AI concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data <li>?> The main objectives of NLP is to<li> <li>-> Understand the sentiment of natural text data (#Sentiment_Analysis)</li> <li>-> Extract the topics or focus points from a bunch of data (#Topic_Modelling & #Text_Summarization)</li> <li>?> Some interesting applications on NLP</li> <li>-> Conversational #Chatbots</li> <li>-> Google Duplex - #AI for everyone</li>",
+    description: "Understood what is NLP and its applications, learned the basics of topic modeling, using NLP to review text, #SWOT analysis",
     tagimg: "https://www.linkedin.com/posts/shashwat-pattanayak_python-programming-coding-activity-6791781658015207424-G0Mp",
     Previewlink: "https://www.linkedin.com/posts/shashwat-pattanayak_connections-swot-cs-activity-6808949921803227136-PHhp",
     Githublink: "https://www.linkedin.com/posts/shashwat-pattanayak_connections-swot-cs-activity-6808949921803227136-PHhp",
@@ -56,7 +56,7 @@ const projects = [
   {
     title: "How Uber Saves your time",
     cardImage: "assets/images/project-page/uber-cluster.jpg",
-    description: "Got a lot to learn from the TechLearn.live session on 'How Uber Saves our time!' Uber is a $75 billion technology company founded in 2009. It is present in 71 countries and 890 cities. The name Uber is a German word meaning 'above all the rest'. It offers land, water as well as air transport. I was really astonished to know that in NY, the choppers are cheaper than taxis to commute between certain places due to traffic and other constraints. I got a good idea of how Uber uses unsupervised machine learning and data science technologies to decrease commute time, determine the optimal position of cabs & create more supplies.",
+    description: "I got a good idea of how Uber uses unsupervised machine learning and data science technologies to decrease commute time, determine the optimal position of cabs & create more supplies.",
     tagimg: "https://www.linkedin.com/posts/shashwat-pattanayak_machinelearning-datascience-ai-activity-6811476355809718272-qTxF",
     Previewlink: "https://www.linkedin.com/posts/shashwat-pattanayak_machinelearning-datascience-ai-activity-6811476355809718272-qTxF",
     Githublink: "https://www.linkedin.com/posts/shashwat-pattanayak_machinelearning-datascience-ai-activity-6811476355809718272-qTxF",

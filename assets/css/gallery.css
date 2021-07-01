@@ -213,8 +213,17 @@ div.picture-container:nth-child(8) {
 }
 @media only screen and (max-width: 700px) {
 
+    .imagecontainer{
+        flex-direction: column !important;
+        padding: 0 !important;
+        margin: 2px !important ;
+        justify-content: center !important ;
+        align-items: center !important ;
+    }
+
     .container_gallery {
         padding-top: 5px;
+        margin: 0 !important;
     }
     .container_gallery .item1,  .container_gallery .item2{
         margin-top: 0px;
