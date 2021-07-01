@@ -172,28 +172,28 @@ const timeline = document.querySelector(".timeline");
 const timelinesection = [
   {
     heading: "Vellore Institute of Technology",
-    image: "./assets/images/education-page/vitb.png",
+    image: "assets/images/education-page/vitb.png",
     subheading: "Masters of Computer Science & Engineering, (2024-2025)",
     description: "<li>India's Best Private University in Madhya Pradesh</li><li>100% Doctoral Faculty</li><li>CalTech Learning</li><li>Fully Flexible Credit System</li>",
   },
 
   {
     heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
+    image: "assets/images/education-page/timeline-1.svg",
     subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 
   {
     heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
+    image: "assets/images/education-page/timeline-1.svg",
     subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 
   {
     heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
+    image: "assets/images/education-page/timeline-1.svg",
     subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
