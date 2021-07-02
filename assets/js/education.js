@@ -155,7 +155,7 @@ const showCards1 = () => {
   badgesection.forEach(
     ({ title, image, description }) =>
     (output += `       
-      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
+      <div class="col-6 col-md-3 col-sm-4 column p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>

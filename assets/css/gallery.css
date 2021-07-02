@@ -248,5 +248,9 @@ div.picture-container:nth-child(8) {
     .item2 p {
         letter-spacing: 0px;
     }
-}
+    
+    .widing{
+        max-width: none;
+    }
+} 
 /*hero section ends*/
