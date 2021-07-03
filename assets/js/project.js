@@ -4,7 +4,14 @@ const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
 const projects = [
-  
+  {
+    title: "How TESLA Self Driving Car Works",
+    cardImage: "assets/images/project-page/tesla-autopilot.jpg",
+    description: "",
+    tagimg: "https://www.linkedin.com/posts/shashwat-pattanayak_autoabrcolourise-deeplearning-aiforall-activity-6815641685436059648-sC_A",
+    Previewlink: "https://www.linkedin.com/posts/shashwat-pattanayak_autoabrcolourise-deeplearning-aiforall-activity-6815641685436059648-sC_A",
+    Githublink: "https://www.linkedin.com/posts/shashwat-pattanayak_autoabrcolourise-deeplearning-aiforall-activity-6815641685436059648-sC_A",
+  },
   {
     title: "Web Windows 11",
     cardImage: "assets/images/project-page/win11.jpg",
