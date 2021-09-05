@@ -23,7 +23,6 @@ html[data-theme="light"] {
     --col-icon-twitter: #1da1f2;
     --col-icon-dribbble: #ea4c89;
     --col-icon-linkedin: #0e76a8;
-    --col-icon-medium: #00ab6c;
     --col-icon-kaggle: #41aff3;
     --col-icon-github: #24292e;
     --col-icon-instagram: rgb(201, 94, 174);
@@ -52,7 +51,6 @@ html[data-theme="dark"] {
     --col-icon-twitter: #1da1f2;
     --col-icon-dribbble: #ea4c89;
     --col-icon-linkedin: #0e76a8;
-    --col-icon-medium: #00ab6c;
     --col-icon-kaggle: #41aff3;
     --col-icon-github: #24292e;
     --col-icon-instagram: rgb(201, 94, 174);
@@ -62,6 +60,7 @@ html[data-theme="dark"] {
     --col-icon-leetcode: rgb(255, 181, 62);
     --col-white: #fff;
 }
+
 
 
 /*
@@ -93,6 +92,13 @@ html[data-theme="dark"] {
     
 }
 
+/* Custom Scrollbar for Mozilla Firefox*/
+html{
+    overflow-y: visible;
+    scrollbar-color: #ca9eff #f1f1f1;
+    scrollbar-width: auto;
+}
+
 body {
     height: 100vh;
     margin: 0;
@@ -100,6 +106,9 @@ body {
     color: var(--text);
     font-family: "Poppins", sans-serif;
     background-color: var(--bg);
+}
+.text-center heading1 exp-head {
+    color: white;
 }
 
 
@@ -228,6 +237,7 @@ html {
 .navbar {
     color: #000000;
     background-color: #fff;
+    z-index: 2;
 }
 
 /* Dark Mode toggle switch button */
@@ -290,12 +300,20 @@ html[light-mode="dark"] {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.dark-theme .nav-link:hover{
+color: #ffffff !important;
+}
+
 .dark-theme .first,
 .dark-theme .second,
 .dark-theme .third {
     background-color: rgba(255, 255, 255, 0.5);
 }
-
+.dsc{
+     box-shadow:   2px 5px 5px 0px rgb(130 216 251), 
+     inset -2px -5px 5px 0px rgb(130 216 251);
+     background: #1f1d1d;
+}
 
 /*
 -------------------------------------
@@ -366,7 +384,6 @@ html[light-mode="dark"] {
         position: relative;
         z-index: 1;
         text-align: center;
-        border-radius: 15px;
     }
     .current-link:after {
         content: "";
@@ -378,19 +395,34 @@ html[light-mode="dark"] {
         width: 32%;
         border-bottom: 3px solid #6a00bb;
     }
-    .nav-link:hover {
-        border-radius: 40px;
-        background: #ffffff;
-        transition: all 0.2s ease-in-out;
-        box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
-        width: 100%;
-        font-weight: bold;
+    
+    .nav-item-hover::after {
+        content: "";
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 0.15em;
+        bottom: 0;
+        width: 0%;
+        background-color: #6a00bb;
+        transition: all ease-in-out 280ms;
     }
+    
+    .nav-item:hover::after {
+        width: 50%;
+        
+    }
+
     li.nav-item {
         text-align: center;
     }
     a.nav-link {
         padding: 6px 21px !important;
+    }
+
+    /* Hide svg on laptop screens to prevent overlap between sidebar and navbar */
+    .bike {
+        display: none;
     }
 }
 
@@ -840,9 +872,9 @@ form {
     width: 100%;
     margin-top: 2rem;
     padding: 3%;
-    background: #6a00bb;
-    border-bottom: 2px solid #6a00bb;
-    border-radius: 2px;
+    background: #bb86fc;
+    border-bottom: 2px solid #bb86fc;
+    border-radius: 23px;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;

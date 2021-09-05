@@ -2,22 +2,44 @@
 
 /* Dark and Light theme */
 
-html[data-theme='light'] {
-    --bg1-color: #ecf0f3;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    max-width:120%;
+    height:auto;
+  }
+  
+
+html[light-mode="light"] {
+    --bg1-color: white;
     --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     --border: 1px solid #ecf0f3;
-}
-
-html[data-theme='dark'] {
+    --meta-col: #444;
+    --head-col: black;
+    --tint-col: #ecf0f3;
+  }
+  
+  html[light-mode="dark"] {
     --bg1-color: #272727;
     --shadow: 0 4px 8px 0 rgba(104, 102, 102, 0.2);
     --border: none;
-}
-
-.education_head {
+    --meta-col: rgb(155, 149, 149);
+    --head-col: #fff;
+    --tint-col: #ecf0f3be;
+  }
+  
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  
+  .education_head {
     font-weight: bold;
-}
-
+  }
+  
 
 /*color of education page heading*/
 
